@@ -11,7 +11,6 @@ class App < Sinatra::Base
   end
   
   post '/puppy' do
-    binding.pry
     name = params["name"]
     breed = params["breed"]
     age = params["age"]
